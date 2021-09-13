@@ -6,4 +6,5 @@
   entry: commit-lint
   # 实现hook所使用的语言
   language: python
-  stages: [commit-lint]
+  # hook执行的时机
+  stages: [commit, push]
