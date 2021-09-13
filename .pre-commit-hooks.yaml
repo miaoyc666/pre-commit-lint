@@ -1,0 +1,9 @@
+# 该项目为一个pre-commit hooks仓库项目，对外提供hooks
+
+- id: commit-lint
+  name: commit lint
+  description: commit lint
+  entry: commit-lint
+  # 实现hook所使用的语言
+  language: python
+  stages: [commit-lint]
